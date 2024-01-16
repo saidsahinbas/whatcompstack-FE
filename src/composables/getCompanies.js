@@ -16,7 +16,7 @@ const useGetCompanies = () => {
 	const fetchData = async () => {
 		try {
 			const response = await axios.get(
-				`${process.env.VUE_APP_ROOT_API}/api/company/stack/all`
+				`https://admin.whatcompanystack.com/api/company/stack/all`
 			);
 			allCompanies.value = response.data;
 			paginateData();

@@ -13,7 +13,7 @@ const getCompany = (id) => {
 	const load = async () => {
 		try {
 			const res = await axios.get(
-				`${process.env.VUE_APP_ROOT_API}/api/company/stack/details/${id}`
+				`https://admin.whatcompanystack.com/api/company/stack/details/${id}`
 			);
 			company.value = res.data.data;
 
