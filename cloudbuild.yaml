@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/bitirme/github.com/saidsahinbas/whatcompstack-fe:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/bitirme/github.com/saidsahinbas/whatcompstack-fe:$SHORT_SHA', '.']
+  args: ['push', 'gcr.io/bitirme/github.com/saidsahinbas/whatcompstack-fe:$SHORT_SHA']
