@@ -3,6 +3,7 @@ import HomeComponent from "../views/HomeComponent.vue";
 import DetailsComponent from "../views/DetailsComponent.vue";
 import AboutUs from "../views/AboutUs.vue";
 import AddCompany from "../views/AddCompany.vue";
+import NotFound from "../views/NotFound.vue";
 
 const routes = [
 	{
@@ -26,6 +27,10 @@ const routes = [
 		name: "AddCompany",
 		component: AddCompany,
 	},
+	{
+		path: "/:notFound",
+		component: NotFound
+	}
 ];
 
 const router = createRouter({
