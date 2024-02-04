@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeComponent from "../views/HomeComponent.vue";
 import DetailsComponent from "../views/DetailsComponent.vue";
-import AboutUs from "../views/AboutUs.vue";
+import JobsList from "../views/JobsList.vue";
 import AddCompany from "../views/AddCompany.vue";
 import NotFound from "../views/NotFound.vue";
 
@@ -18,9 +18,9 @@ const routes = [
 		props: true,
 	},
 	{
-		path: "/about",
-		name: "About",
-		component: AboutUs,
+		path: "/jobs-list",
+		name: "JobsList",
+		component: JobsList,
 	},
 	{
 		path: "/add-company",

@@ -12,10 +12,17 @@
         <img class="mobile-logo"
           src="https://res.cloudinary.com/chidiebere/image/upload/c_thumb,w_200,g_face/v1703703886/WCS_555555555555.png"
            style="width: 1.6em; vertical-align: top;">
-
-      </router-link>
-    
-      <div class="justify-content-end" id="navbarTogglerDemo02">
+      
+        </router-link>
+        <div class="justify-content-center">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="/jobs-list">See Jobs</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="justify-content-end" id="navbarTogglerDemo02">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
             <a href="https://github.com/saidsahinbas/whatcompstack-FE" target="_blank" class="nav-link">🌟 us
