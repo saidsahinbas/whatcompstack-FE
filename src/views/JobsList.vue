@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Open Jobs10</h1>
+    <h1>Open Jobs1</h1>
     <div class="jobs">
       <ul class="job-post">
         <li
